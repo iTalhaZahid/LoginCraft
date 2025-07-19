@@ -78,11 +78,11 @@ LoginCraft/
 ## 📷 Screenshots
 
 | Home Screen | Login with Email | 
-|-------------|-------------------|
-|  <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/1.jpg" alt="Alt Text" style="width:250px; height:auto;">  | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/2.jpg" alt="Alt Text" style="width:250px; height:auto;"> |
-| Login with Number & Country Picker | Settings Page |
-|----------------|----------------|
-|  <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/3.jpg" alt="Alt Text" style="width:250px; height:auto;">  | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/4.jpg" alt="Alt Text" style="width:250px; height:auto;">  |
+|-------------|------------------|
+| <img src="https://github.com/iTalhaZahid/LoginCraft/blob/7775b32b8b823385f2ccf9b66e7db0f08dc42372/Screenshots/1.png" width="250"/> | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/7775b32b8b823385f2ccf9b66e7db0f08dc42372/Screenshots/2.png" width="250"/> |
+| Login with Number | Settings Page |
+| <img src="https://github.com/iTalhaZahid/LoginCraft/blob/7775b32b8b823385f2ccf9b66e7db0f08dc42372/Screenshots/3.png" width="250"/> | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/7775b32b8b823385f2ccf9b66e7db0f08dc42372/Screenshots/4.png" width="250"/> |
+
 
 ---
 
