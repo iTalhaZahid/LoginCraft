@@ -1,50 +1,145 @@
-# Welcome to your Expo app 👋
+```markdown
+# 🔐 LoginCraft – React Native UI Starter (Expo + TypeScript)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**LoginCraft** is a lightweight, front-end-only **React Native** starter app built with **Expo** and **TypeScript**, designed to showcase clean and customizable authentication and settings screens. It’s ideal for UI prototyping, developer onboarding flows, or as a base to plug in your own backend (Firebase, Supabase, etc.).
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+### 🚀 Home Navigation
+- Entry point to login via:
+  - Email
+  - Phone Number
+  - Settings Screen
 
-2. Start the app
+### 🔐 Auth UI (No backend)
+- Phone number input with country code picker
+- Email/password login screen
+- Placeholder buttons for:
+  - Google
+  - Apple
+  - Facebook
+- Forgot Password & Remember Me (UI only)
 
-   ```bash
-   npx expo start
-   ```
+### ⚙️ Settings UI
+- Profile display
+- Toggle controls for:
+  - Dark Mode
+  - Location Services
+  - Email & Push Notifications
+- Language selector (UI)
+- Support buttons: Report Bug, Contact Us, Rate in App Store
 
-In the output, you'll find options to open the app in a
+### 🧱 Componentized Design
+- Atomic architecture (`atoms`, `molecules`)
+- Custom components:  
+  - `CustomButton`
+  - `CustomStatusBar`
+- Centralized asset and constant management
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📁 Folder Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+LoginCraft/
+├── src/
+│   ├── app/                    # Navigation and screens
+│   │   ├── \_layout.tsx
+│   │   ├── index.tsx
+│   │   ├── loginwithnumber.tsx
+│   │   ├── simpleLogin.tsx
+│   │   └── setting.tsx
+│   ├── assets/
+│   │   ├── fonts/
+│   │   └── images/
+│   ├── components/
+│   │   ├── atoms/
+│   │   │   ├── custombutton.tsx
+│   │   │   └── customStatusBar.tsx
+│   │   └── molecules/
+│   ├── constants/
+│   │   └── imagePath.ts
+├── app.json                   # Expo app config
+├── eas.json                   # Expo Application Services config
+├── tsconfig.json              # TypeScript config
+├── eslint.config.js           # ESLint rules
+├── expo-env.d.ts              # Expo env types
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
 
-## Learn more
+````
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📷 Screenshots
 
-## Join the community
+| Home Screen | Login with Email | Login with Number |
+|-------------|-------------------|------------------|
+| ![Home](/Screenshots/1.jpg) | ![LoginNumber](/Screenshots/2.jpg) | ![LoginEmail](/Screenshots/3.jpg) |
 
-Join our community of developers creating universal apps.
+| Country Picker | Settings Page |
+|----------------|----------------|
+| ![CountryPicker](/Screenshots/4.jpg) | ![Settings](/Screenshots/5.jpg) |
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- Expo CLI:
+  ```bash
+  npm install -g expo-cli
+````
+
+### Install & Run
+
+```bash
+git clone https://github.com/iTalhaZahid/LoginCraft.git
+cd LoginCraft
+npm install
+npx expo start
+```
+
+> Scan the QR with Expo Go or run it on an Android/iOS emulator.
+
+---
+
+## 📌 Notes
+
+* This is a **UI-only** project — no actual login, backend calls, or state management.
+* All buttons and forms are static for demonstration or prototyping purposes.
+
+---
+
+## 🧩 Ideas for Expansion
+
+* Integrate Firebase or Supabase for real auth
+* Add Redux or React Context for state handling
+* Extend screen stack with onboarding, profile, etc.
+* Connect settings toggles to persistent storage (e.g., AsyncStorage)
+
+---
+
+## 📬 Contact
+
+* GitHub: [italhazahid](https://github.com/italhazahid)
+* Email: [italhazahid@gmail.com](mailto:italhazahid@gmail.com)
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> Built with 💙 using React Native, Expo, and TypeScript — power your next mobile login flow with **LoginCraft**.
+
+```
