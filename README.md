@@ -1,7 +1,7 @@
-```markdown
 # 🔐 LoginCraft – React Native UI Starter (Expo + TypeScript)
 
 **LoginCraft** is a lightweight, front-end-only **React Native** starter app built with **Expo** and **TypeScript**, designed to showcase clean and customizable authentication and settings screens. It’s ideal for UI prototyping, developer onboarding flows, or as a base to plug in your own backend (Firebase, Supabase, etc.).
+> ⚠️ This is a **frontend-only build** – no backend or real-time database integration is included yet.
 
 ---
 
@@ -42,8 +42,8 @@
 
 ## 📁 Folder Structure
 
-```
 
+```
 LoginCraft/
 ├── src/
 │   ├── app/                    # Navigation and screens
@@ -72,19 +72,18 @@ LoginCraft/
 ├── package-lock.json
 └── README.md
 
-````
-
+```
 ---
 
 ## 📷 Screenshots
 
 | Home Screen | Login with Email | Login with Number |
 |-------------|-------------------|------------------|
-| ![Home](/Screenshots/1.jpg) | ![LoginNumber](/Screenshots/2.jpg) | ![LoginEmail](/Screenshots/3.jpg) |
+|  <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/1.jpg" alt="Alt Text" style="width:250px; height:auto;">  | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/2.jpg" alt="Alt Text" style="width:250px; height:auto;"> | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/3.jpg" alt="Alt Text" style="width:250px; height:auto;">  |
 
 | Country Picker | Settings Page |
 |----------------|----------------|
-| ![CountryPicker](/Screenshots/4.jpg) | ![Settings](/Screenshots/5.jpg) |
+|  <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/4.jpg" alt="Alt Text" style="width:250px; height:auto;">  | <img src="https://github.com/iTalhaZahid/LoginCraft/blob/da0730551870d0a6a1ccfad87b06bbdfcc5c7762/Screenshots/5.jpg" alt="Alt Text" style="width:250px; height:auto;">  |
 
 ---
 
@@ -96,7 +95,7 @@ LoginCraft/
 - Expo CLI:
   ```bash
   npm install -g expo-cli
-````
+
 
 ### Install & Run
 
